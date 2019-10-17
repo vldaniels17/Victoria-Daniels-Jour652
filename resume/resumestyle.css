@@ -2,3 +2,31 @@
   width: 100%
   max-width: 1200px;
 }
+
+.sections{
+  font-family: "Playfair Display", serif;
+  color: black;
+  font-size: 24pt;
+}
+
+.titles{
+  font-family: "Playfair Display",serif;
+  color: black;
+  font-size: 18pt;
+}
+
+.dates{
+  font-family: "Arimo", sans-serif;
+  font-style: italic;
+  color: #77053a
+  font-size: 14pt;
+}
+p{
+  font-family: "Arimo", sans-serif;
+  font-size: 14pt;
+}
+
+h2{
+  font-family: "Arimo", sans-serif;
+  font-size: 12pt;
+}
