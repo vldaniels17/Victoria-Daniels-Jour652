@@ -1,6 +1,8 @@
 .container{
-  width: 100%
+  width: 75%
   max-width: 1200px;
+  padding: 10px;
+  margin-left: 15px;
 }
 
 .sections{
@@ -11,22 +13,87 @@
 
 .titles{
   font-family: "Playfair Display",serif;
-  color: black;
+  color: #77053a;
   font-size: 18pt;
-}
+  font-weight: bold;
+  }
 
 .dates{
   font-family: "Arimo", sans-serif;
   font-style: italic;
+  font-weight: bold;
   color: #77053a
   font-size: 14pt;
 }
 p{
   font-family: "Arimo", sans-serif;
-  font-size: 14pt;
+  font-size: 12pt;
 }
 
 h2{
   font-family: "Arimo", sans-serif;
   font-size: 12pt;
+}
+
+.skills{
+  font-family: "Playfair Display", serif;
+  color: black;
+  font-size: 24pt;
+  margin-right: 20px;
+  margin-left: 25px;
+  margin-top:15px;
+
+}
+
+.awards{
+  font-family: "Playfair Display", serif;
+  color: black;
+  font-size: 24pt;
+  margin-left: 10px;
+}
+
+.titles1{
+  font-family: "Playfair Display",serif;
+  font-weight: bold;
+  color: #77053a;
+  font-size: 18pt;
+  margin-left: 55px;
+}
+
+.titles2{
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: #77053a;
+  margin-left: 90px;
+  font-size: 18pt;
+}
+
+.titles3{
+  font-family: "Playfair Display",serif;
+  font-weight: bold;
+  color: #77053a;
+  font-size: 18pt;
+  margin-left: 110px;
+}
+
+.navbar-brand{
+  font-family: "Playfair Display", serif;
+}
+
+.nav-link{
+  font-family: "Playfair Display", serif
+}
+
+.dropdown-item{
+  font-family: "Playfair Display", serif
+}
+
+footer{
+  width: 100%;
+  font-family: "Arimo", sans-serif;
+  font-size: 12pt;
+  text-align: center;
+  background color: #77053a;
+  border-style: solid;
+  padding: 10px 0px;
 }
