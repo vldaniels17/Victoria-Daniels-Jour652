@@ -1,0 +1,40 @@
+
+.headline{
+  font-family: Georgia; serif;
+  font-size: 24pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+.byline{
+  font-family: Georgia; serif;
+  font-size: 14pt;
+  text-align: center;
+}
+
+.image {
+  text-align: center;
+  margin: 0 auto;
+  width: 900px;
+}
+
+.caption{
+  font-style: italic;
+  font-size: 10pt;
+  font-family: helvetica;
+}
+
+.body{
+  font-family: helvetica;
+  font-size: 12pt;
+}
+
+footer{
+  text-align: center;
+  background-color: red;
+  color: white;
+  padding: 10px 0px;
+  border-style: solid;
+  margin-top: 50px;
+  margin-left: 50px;
+}
