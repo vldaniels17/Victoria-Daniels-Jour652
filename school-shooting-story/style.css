@@ -1,0 +1,143 @@
+
+.headline{
+  font-family: "Montserrat", sans-serif;
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.byline{
+  font-family: "Montserrat", sans-serif;
+  font-size: 12pt;
+  text-align: center;
+  font-weight: 700;
+}
+
+.image {
+  text-align: center;
+  margin: 0 auto;
+  width: 900px;
+}
+
+.caption{
+  font-style: italic;
+  font-size: 10pt;
+  font-family: helvetica;
+}
+
+.body{
+  font-family: 'PT Serif', serif;
+  font-size: 1em;
+  color: black;
+  font-weight: 400;
+}
+
+p{
+  font-family:"Montserrat", sans-serif;
+  font-size: 1.25em;
+  font-weight: 700;
+  max-width: 800px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: left;
+  align-content: center;
+
+}
+
+.red {
+ color: #e0162b;
+}
+
+.blue {
+ color: #0052a5;
+}
+
+.caption{
+  width:100%;
+ max-width:900px;
+ margin:0 auto;
+ padding-bottom:30px;
+ font-family: 'Montserrat', sans-serif;
+ color:#999;
+}
+
+.graphic-container{
+ padding-top:30px;
+ padding-bottom:30px;
+ border-top:1px solid #cdcdcd;
+ border-bottom:1px solid #cdcdcd;
+ font-family: 'Montserrat', sans-serif;
+ margin:0 auto;
+}
+
+/*links*/
+a:link{
+  #e0162b
+  text-decoration: none;
+}
+
+a:hover{
+  #0052a5
+  text-decoration: none;
+}
+
+a.visited{
+  #999
+  text-decoration: none;
+}
+
+/*images*/
+.star-top{
+  width: 15px;
+  padding-left: 5px;
+}
+.hero-image{
+  width: 100%;
+  max-width: 900px;
+}
+.star-bottom{
+  width: 15px;
+  padding-left: 5px;
+}
+.chapterstar{
+  width: 15px;
+  padding-right: 5px;
+  }
+
+  .stack-image{
+    width:100%;
+max-width:900px;
+margin:0 auto;
+padding-top:30px;
+  }
+/*nav bar*/
+.bg-dark {
+ background:#000 !important;
+}
+ul.navbar-nav {
+ margin-left:50%;
+}
+.navbar {
+ font-family: 'Montserrat', sans-serif;
+ color: white;
+ font-size: 1.25 em;
+}
+
+/*chapters*/
+.chapter1{
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  padding top: 20px;
+  width: 100%
+}
+
+
+footer{
+  background-color: black;
+  height: 100px;
+  padding: 25px;
+  text-align: center;
+  color: white;
+
+}

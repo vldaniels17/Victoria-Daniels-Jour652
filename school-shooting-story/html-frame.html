@@ -1,0 +1,134 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Bootstrap Template</title>
+  <meta name="description" content="An American Tragedy. Over 200 school shootings in 2 decades. What have we learned?">
+
+
+<!--Google fonts-->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|PT+Serif:400,700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Load c3.css -->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.css" rel="stylesheet">
+
+     <!-- Load our CSS -->
+     <link rel="stylesheet" href="style.css">
+
+     <!-- Load d3.js and c3.js -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
+     <!-- Load c3.css -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.css" rel="stylesheet">
+
+        <!-- Load our CSS -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Load d3.js and c3.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
+</head>
+<body>
+
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <a class="navbar-brand" href="#"><img src="images/star-red.png" class="star-top">
+    <img src="images/star-blue.png" class="star-top"> An American Tragedy</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+
+        <!-- Link -->
+        <li class="nav-item">
+          <a class="nav-link" href="#">Where & When</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">The Carnage</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">A Profile</a>
+        </li>
+        <!-- End Link -->
+        </div>
+  </nav>
+  <!-- End NavBar -->
+<div class="container">
+<center><img src="images/ar15.jpg" class=".hero-image">
+  <p class="headline"> An <span class="blue">American</span> Tragedy</p>
+  <p class= "byline"> Over 200 school shootings in two decades. <br> What have we learned?</p>
+  <img src="images/star-red.png" class="star-bottom">
+  <img src="images/star-blue.png" class="star-bottom">
+  <img src="images/star-red.png" class="star-bottom">
+  <img src="images/star-blue.png" class="star-bottom">
+<br><br>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+© 2015 — 2019</p>
+
+<div>
+  <class="row">
+   <p class="chapter1"> <img src="images/star-blue.png" class="chapterstar"><img src="images/star-red.png" class="chapterstar">Chapter Title </p>
+
+
+
+<p class="body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+© 2015 — 2019</p>
+
+<img src="images/alaina-petty.jpg" class="stack-image">
+<p class="caption">Caption: Insert image or video above</p>
+
+<p class="body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+© 2015 — 2019</p>
+
+<!-- Graphic container-->
+<div class="graphic-container">
+  <h2>Shootings by year</h2>
+  <p>The number of shootings per year has generally remained high in the US since the turn of the century, with noticable dips in 2002, 2011 and 2015. The last three years, the number of shootings has been consistantly high.</p>
+  <div id="shootingsByYearChart"></div>
+  <em>Source: Data collected by The Washington Post</em>
+</div>
+<!-- END graphic container-->
+
+<p class="body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+© 2015 — 2019</p>
+
+<footer>
+  <p> Footer text </p>
+  <p> 2019 Copyright Information </p>
+</footer>
+</div>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- c3 script-->
+  <script>
+  //CHART 1
+  var chart = c3.generate({
+   bindto: '#shootingsByYearChart',
+   data: {
+     x: 'x',
+     columns: [
+       ['x', 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
+       ['Number of incidents', 7, 12, 13, 5, 11, 9, 13, 15, 10, 9, 9, 9, 7, 11, 13, 16, 7, 13, 14, 12],
+     ]
+   },
+   color: {
+     pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+   }
+  });
+
+
+       </script>
+
+</body>
+</html>
