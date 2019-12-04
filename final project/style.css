@@ -1,0 +1,124 @@
+.headline{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.byline{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 12pt;
+  text-align: center;
+  font-weight: 700;
+}
+
+.body{
+  font-family: 'Merriweather', serif;
+  font-size: 14pt;
+  color: black;
+  }
+
+h4{
+  font-family: "Merriweather"
+}
+p{
+  font-family:"Merriweather", sans-serif;
+  font-size: 1.25em;
+  font-weight: 700;
+  max-width: 800px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: left;
+  align-content: center;
+}
+
+h2{
+  font-family: "Bebas Neue"
+font-size: 24pt;
+text-align: center;
+}
+
+h3{
+  font-size: 12pt;
+}
+
+.caption{
+  width:100%;
+ max-width:900px;
+ margin:0 auto;
+ padding-bottom:30px;
+ font-family: 'Merriweather', sans-serif;
+ color:#999;
+}
+
+.graphic-container{
+ padding-top:30px;
+ padding-bottom:30px;
+ border-top:1px solid #cdcdcd;
+ border-bottom:1px solid #cdcdcd;
+ font-family: 'Bebas Neue', sans-serif;
+ margin:0 auto;
+
+}
+
+
+
+/*links*/
+a:link{
+  #e0162b
+  text-decoration: none;
+}
+
+a:hover{
+  #0052a5
+  text-decoration: none;
+}
+
+a.visited{
+  #999
+  text-decoration: none;
+}
+
+/*images*/
+
+.schoolimg{
+  padding-top: 20px;
+  width: 100%;
+  max-width: 900px;
+}
+
+.complaint{
+  width: 100%
+}
+  .stack-image{
+    width:100%;
+max-width:900px;
+margin:0 auto;
+padding-top:30px;
+  }
+/*nav bar*/
+.bg-dark {
+ background:#A41700 !important;
+}
+
+.navbar {
+ font-family: 'Bebas Neue', sans-serif;
+ color: black;
+ font-size: 24pt;
+}
+
+/*chapters*/
+.chapter{
+  font-family: "bebas neue";
+  font-size: 24pt;
+}
+
+/*footer*/
+footer{
+  background-color: black;
+  height: 100px;
+  padding: 25px;
+  text-align: center;
+  color: white;
+
+}
