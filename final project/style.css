@@ -42,6 +42,11 @@ h3{
   font-size: 12pt;
 }
 
+h4{
+  font-family: "Bebas Neue";
+  font-size: 10pt;
+  font-style: italic;
+}
 .caption{
   width:100%;
  max-width:900px;

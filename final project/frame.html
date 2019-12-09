@@ -123,11 +123,50 @@
 
     <img src="complaint.png" class="complaint">
 
+    <p class="body"> They also included their 2017-2018 report Student Sexual Misconduct Report which includes student data on sexual misconduct complaints and ongoing sexual misconduct prevention and education on campus, as said on the overview page in the report. </p>
+
+    <!-- second graphic container line-->
+  <div class="graphic-container">
+    <h2> Student Sexual Misconduct Data </h2>
+    <h3> According to the 2017-2018 report, a report is defined as a potential complaint of sexual misconduct received by OCRSM. A complaint is when a student engages the University to address sexual misconduct. This graph looks at reports, complaints and investigations. </h3>
+    <h4> each year represents the full school year, for example : 2014-2015, 2015-2016, 2016-2017, & 2017-2018 </h4>
+    <div id="ocrsmdata"</div>
+    <em>Source: Data collected by the Office of Civil Rights and Sexual Misconduct</em>
+    </div>
+      <!-- second graphic container-->
+
     <p class="body"> While implementing campus-wide civil rights compliance training and mandatory sexual misconduct training for everyone, the office “strives to foster an inclusive campus.” </p>
 
     <div>
       <class="row"> <a name="umpd"></a>
        <p class="chapter"> The Survivor's Choice </p>
+    <p class="body">While students have the choice to report administratively to CARE and OCRSM, they can also file a criminal investigation with the University of Maryland Police Department, according to Sgt. Rosanne Hoaas, public information officer for UMPD. </p>
+
+    <p class="body"> Sgt. Hoaas described the department’s reaction to reports as an “immediate response as the criminal investigation unit is automatically notified.</p>
+
+    <p class="body">“You could come in the middle of the night, you’re going to get an officer to meet with you, “ said Hoaas. This means survivors can contact UMPD at any time during the day or even and expect someone to immediately meet with them or begin to hear their story.</p>
+
+    <p class="body"> Survivors can report incidents that have happened at any time. According to Rape, Abuse & Incest National Network, Maryland has no statute of limitations for any felony sex crime. This holds true as the Uniform Crime Report on UMPD’s website lists two rapes for 2019, with one of them occurring in August but being reported just last month in November.</p>
+
+      <!-- third graphic container line-->
+    <div class="graphic-container">
+      <h2> Uniform Crime Report </h2>
+      <h3> The Uniform Crime Report reflects monthly reports made only to UMPD as their participation in the FBI's Uniform Crime Reporting Program. These are the rapes that have been reported to UMPD since 2009. </h3>
+      <div id="myLineChart2"</div>
+      <em>Source: Data collected by the Univeristy of Maryland Police Department</em>
+      </div>
+        <!-- third graphic container-->
+      <p class="body">  UMPD gives survivors the option of having a Sexual Assault Forensic Examination performed by the local hospitals. The Maryland Coalition Against Sexual Assault’s website details the exact procedures during a SAFE exam and the hospitals that offer this free-of-charge service. https://mcasa.org/survivors/getting-medical-attention </p>
+
+      <p class="body">
+      UMPD also grants people the ability to stop, start or pause the investigation at any moment. If the survivor decides they want the investigation to continue, UMPD sends the case to the Prince George’s County State Attorney’s Office to see if they can prosecute further. The office will decide whether there is enough information to move forward or whether information still needs to be gathered.</p>
+
+    <p class="body">
+    "That's the message here, it's the survivor's choice," said Hoaas. (blockquote)A key part of the officer’s end of the investigation is respecting the survivor’s wishes throughout whether that be wanting a SAFE exam or stopping the investigation. UMPD even allows for victim advocates to be present during this process to help the survivor tell their story. </p>
+
+   <p class="body">  The only requirement that the police department has is to report to Title IX, a mandatory procedure if survivors approach UMPD. If survivors go to Title IX or CARE, they are not obligated to report to UMPD. If the survivor wishes to file a criminal investigation after seeing Title IX and CARE, those offices contact UMPD and the process begins.</p>
+
+
 
 <footer>
   <p> Footer text </p>
@@ -159,6 +198,40 @@
    pattern: ['#A41700', '#000000']
   }
   });
+//CHART 2
+
+var chart = c3.generate({
+  bindto: '#ocrsmdata',
+  data: {
+    x: 'x',
+    columns: [
+      ['x', 2014, 2015, 2016, 2017],
+      ['Number of Reports', 112, 184, 208, 249],
+      ['Number of Complaints', 48, 66, 80, 91],
+      ['Investigations', 18, 26, 27, 16],
+    ]
+  },
+  color: {
+    pattern: ['#A41700', '#000000', '#78776C', '#60c4b2', '#973895']
+  }
+});
+
+//CHART 3
+  var chart = c3.generate({
+    bindto: '#myLineChart2',
+    data: {
+      x: 'x',
+      columns: [
+        ['x', 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019],
+        ['Number of Rapes Reported', 0, 1, 0, 0, 0, 0,5,4,3,1,2],
+      ]
+    },
+    color: {
+      pattern: ['#A41700', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+    }
+  });
+
+
   </script>
 
 </body>
