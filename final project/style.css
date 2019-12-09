@@ -70,7 +70,7 @@ h4{
 
 /*links*/
 a:link{
-  #e0162b
+  #a41700
   text-decoration: none;
 }
 
@@ -82,6 +82,11 @@ a:hover{
 a.visited{
   #999
   text-decoration: none;
+}
+
+.links{
+  font-family: "Bebas Neue";
+
 }
 
 /*images*/
@@ -120,7 +125,8 @@ padding-top:30px;
 
 /*footer*/
 footer{
-  background-color: black;
+  font-family: "Bebas neue";
+  background-color: #a41700;
   height: 100px;
   padding: 25px;
   text-align: center;
