@@ -47,14 +47,7 @@ h4{
   font-size: 10pt;
   font-style: italic;
 }
-.caption{
-  width:100%;
- max-width:900px;
- margin:0 auto;
- padding-bottom:30px;
- font-family: 'Merriweather', sans-serif;
- color:#999;
-}
+
 
 .graphic-container{
  padding-top:30px;
@@ -66,7 +59,23 @@ h4{
 
 }
 
+.caption{
+  font-family: "merriweather";
+  font-style: italic;
+  font-size: 9pt;
+  text-align: center;
+}
 
+blockquote{
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+  color: #a41700;
+  font-family: "bebas neue";
+  font-size: 24pt;
+}
 
 /*links*/
 a:link{
@@ -86,9 +95,11 @@ a.visited{
 
 .links{
   font-family: "Bebas Neue";
-
 }
 
+.intextlinks{
+  color: #a41700;
+}
 /*images*/
 
 .schoolimg{
@@ -100,12 +111,10 @@ a.visited{
 .complaint{
   width: 100%
 }
-  .stack-image{
-    width:100%;
-max-width:900px;
-margin:0 auto;
-padding-top:30px;
-  }
+
+.intextpics{
+  width: 100%
+}
 /*nav bar*/
 .bg-dark {
  background:#A41700 !important;
@@ -127,8 +136,9 @@ padding-top:30px;
 footer{
   font-family: "Bebas neue";
   background-color: #a41700;
+  font-size: 12pt;
   height: 100px;
-  padding: 25px;
+  padding: 5px;
   text-align: center;
   color: white;
 
